@@ -1,0 +1,242 @@
+body {
+    background-color: black;
+}
+h1, h2 {
+    color:darkorange;
+}
+p, h3, h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+nav {
+    background-image: url("carlospedia.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 200px;
+    width: 100%;
+  } 
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+   nav li {
+    float: right;
+  }
+  nav a {
+    display: flex; 
+    color: white; 
+    text-align: center;
+    margin-top: 60px;
+    padding: 10px 10px; 
+    text-decoration: none;
+  }
+  nav li a:hover {
+    color: darkorange;
+  }
+  #mercenaries{
+    float: right;
+    margin-right: 50px;
+    clear: both;
+  }
+  hr{
+    margin-right: 400px;
+  }
+  #jill{
+    margin-left: 600px;
+  }
+  #carlitos{
+    width: 280px;
+    float: right;
+    margin-right: 200px;
+  }
+  #cuadro1{
+    border: 3px solid red; 
+    padding: 10px; 
+    float: right; 
+    width: 300px; 
+    font-size: 15px;
+    color: white;
+    margin-right: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  #cuadro2{
+    display: flex; 
+    align-items: center;
+    margin-bottom: 10px;
+    flex: 1;   
+  }
+  #nombre1{
+    display: flex; 
+    border-bottom: 1px solid black; 
+    align-items: center; 
+    margin-bottom: 10px;
+  }
+  #info{
+    display: flex; 
+    border-top: 1px solid red; 
+    border-bottom: 1px solid red; 
+    background-color: red;
+  }
+  #nombre2{
+    color: white;
+  }
+  .cuadritos{
+    display: flex; 
+    height: 6%; 
+    border-top: 1px solid red; 
+    border-bottom: 1px solid red;
+  }
+  .datos1{
+    flex: 1; 
+    border-right: 1px solid red;
+    color: darkorange;
+  }
+  .datos2{
+    flex: 1;
+  }
+  #voces{
+    display: flex; 
+    height: 16%; border-top: 
+    1px solid red; 
+    border-bottom: 1px solid red;
+  }
+  #retrato{
+    display: flex; 
+    height: 13%; 
+    border-top: 1px solid red; 
+    border-bottom: 1px solid red;
+  }
+  #actor{
+    display: flex; 
+    height: 4%; 
+    border-top: 1px solid red;
+  }
+  #comillas1{
+    color: red;
+    margin-left: 120px;
+  }
+  #comillas2{
+    color: red;
+    margin-left: 720px;
+  }
+  #frase{
+    margin-left: 150px;
+  }
+
+  #sumario li a:hover {
+    color: darkorange;
+  }
+  #sumario{
+    color: white;
+    float: left;
+    border: 1px solid white;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 15px;
+    margin-left: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  #sumario a{
+    color: white;
+  }
+  #papu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 3px solid red;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+     margin-right: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  #papu li {
+    float: left;
+  }
+  #papu a {
+    display: flex; 
+    size: 10px;
+    color: white; 
+    text-align: center;
+    padding: 10px;
+    margin-left: 100px;
+    text-decoration: none;
+  }
+  #papu li a:hover {
+    color: darkorange;
+  }
+  #referencias{
+    border: 2px solid red;
+    margin-right: 400px;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+    #referencias a{
+      color: darkorange;
+    }
+  #referencias a:hover {
+    color: rgb(250, 190, 116);
+  }
+  #categorias{
+    margin-top: 20px;
+    color: white;
+  }
+  #categorias a{
+    color: darkorange;
+  }
+  #categorias a:hover {
+    color: rgb(250, 190, 116);
+  }
+  #footer{
+    background-color: rgb(97, 0, 0);
+    margin-top: 15px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .column {
+    flex: 1;
+    height: 260px;
+    margin-left: 100px;
+  }
+  .column p{
+    color: white;
+  }
+  .column a{
+    color: darkorange;
+  }
+.column a:hover{
+  color: rgb(250, 190, 116);
+}
+#titulo{
+  margin-left: 50px; 
+  color: white;
+}
+#banner{
+  width: 700px; 
+  margin-left: 300px;
+}
+#botones{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.banderas{
+  width: 20px;
+}
